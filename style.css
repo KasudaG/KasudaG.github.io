@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 20px;
+    color: #111;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs and lists */
+p, li {
+    margin-bottom: 15px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007acc;
+}
+
+/* Math formulas */
+.math {
+    font-size: 1.5em;
+    margin: 15px 0;
+    display: block;
+    background: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Highlight box for definitions or formulas */
+.box {
+    background: #e0f7fa;
+    padding: 12px 15px;
+    border-left: 4px solid #00acc1;
+    margin: 15px 0;
+}
+.red-box {
+    background: #ffe5b4;       /* light red background */
+    border-left: 4px solid #d25e5e;  /* darker red accent */
+    padding: 12px 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    font-style: normal;
+}

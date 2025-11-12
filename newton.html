@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newton's Laws</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="notes.html">Notes</a>
+        <a href="kinematic.html">Kinematics</a>
+    </nav>
+
+    <h1>Newton’s Laws</h1>
+
+    <p>
+        This topic is conceptual and intuitive rather than purely mathematical.
+    </p>
+
+    <h2>Laws of Motion</h2>
+    <ol>
+        <li>An object at rest remains at rest, and an object in motion remains in motion at constant speed in a straight line unless acted on by an unbalanced force.</li>
+        <li>The acceleration of an object depends on the mass of the object and the amount of force applied.</li>
+        <li>Whenever one object exerts a force on another, the second object exerts an equal and opposite force on the first.</li>
+    </ol>
+
+    <h2>Second Law</h2>
+    <p>
+        A force can be some influence that can change the state of motion of a body.Momentum(p) is something which can tell about the motion of a body(p=mv)and force can change the state of motion of a body hence distupting momentum and bringing change in momentum-time graph or just change in momentum with passage of time. So, Mathematically:
+    </p>
+    <div class="box math">
+        \[ F = \frac{dp}{dt} \]
+    </div>
+    <p>
+        If mass remains constant, we get:
+    </p>
+    <div class="box math">
+        \[ F = ma \]
+    </div>
+    This formula only works with cases where mass is constant but 99% of the time it is constant.
+    <div class="box math">
+    Note: Try deriving \(F = ma \) using \( F = \frac{dp}{dt} \) on your own! Rememeber, mass remains constant
+</div>
+    <h2>
+        Working with Newton's laws of motion
+
+    </h2>
+        To work with these laws keep these things in mind:
+        <ol>
+    <li>Identify the type of system i.e. which law should be applied.</li>
+    <li>Identify the forces acting on the particles (trust me, there are more forces than the perceived amount).</li>
+    <li>
+        Make a Free Body Diagram. Even a rough sketch can help. Example:
+        <br>
+        <img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 190924.png" alt="Block on ground" class="image-center" />
+        <p>This is a block of mass 'm' lying on the ground. Its FBD (Free Body Diagram) will be:</p>
+        <img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 192113.png" alt="Free Body Diagram" class="image-center" />
+        <p>You see what I did there? I marked all the force acting on the body which in these case were: the normal reaction applied by the ground which is perpendicular to the surface due to the weight mg.
+            So to make a FBD, you mark all the force acting ON the body and u can even treat the body like a point.
+        </p>
+    </li>
+</ol>.<div class="red-box">
+    <p><strong>Problem:</strong> A block of mass M is pulled on a smooth horizontal table by a string making an angle 
+θ
+ with the horizontal as shown in figure. If the acceleration of the block is 
+a
+, find the force applied by the string and by the table N on the block.<img src="https://d10lpgp6xz60nq.cloudfront.net/physics_images/HCV_VOL1_C05_S01_002_Q01.png"></p>
+
+    <details>
+    <summary><strong>Click here to see the solution</strong></summary>
+    <div class="solution-box">
+        <ul>
+            <li>First, we identify the forces on the block and their direction. The forces on the block are:<ul>
+                <li>It's weight Mg, vertically downward</li>
+                <li>Tension in the string which we call T.</li>
+                <li>Normal reaction 'N' exerted by the ground</li>
+            </ul>
+        
+            </li><li>The FBD will come out to be:</li>
+            <li></li><img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 201231.png"></li>
+            <li>You can see I treated the body as a point mass. Now resolving the components of tension, we get</li>
+            <li><img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 202028.png"></li>
+            <li>You can see the tension acts in 2 direction hence adding with normal reaction.</li>
+            <li>Now we can just work in the 2 different directions. <ul>
+                <li>As acceleration is a, then horizontally by Newton's 2nd law:<span class="math">\[ Ma=Tcosθ \]</span>
+                <span class="math">\[ T = \frac{M a}{\cos \theta} \]</li>
+                <li>In vertical as there is no vertical movement of block:<span class="math">\[ Mg=N+Tsin θ \]</span></li>
+                <li>But \[ T = \frac{M a}{\cos \theta} \]</li>
+                <li>therefore, we get,<span class="math">\[ N = M g - M a \tan \theta \] </li>
+            </ul></li>
+        </ul>
+
+        
+    </div>
+</details>
+</div>
+<h2>Pulleys, Springs, and some fun problems with solutions!</h2>
+<h3>Pulley</h3>
+<p>A pulley or also an atwood machine isn't something I have seen in real life but have the idea of through physics.Lemme show you a diagram of a pulley with two strings at its free ends:<img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 204500.png"></p>
+<p>This is a one with two blocks at it ends:<img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 204853.png"></p>
+<h3>Working with pulleys</h3>
+<ul><li>The main part here is to draw Fbd of the blocks and keeping direction in mind and also writing appropriate equation. Lemme show what I mean through an example:
+
+</li></ul><div class="red-box"><Strong>PROBLEM:</Strong>Find the acceleration of block of masses M and 2M in the figure if pulley is massless<img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 210048.png"><details>
+    <summary><strong>Click here to see the solution</strong></summary>
+    <div class="solution-box"><ul><li>
+        First we label the tension in string as 'T'<img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 211245.png">
+        
+    </li><li>Direction of tension is always away from point or block and it remains constant throught the string if pulley and string are maseless or light .The FBD of blocks come out to:
+
+    </li><li><img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 211912.png"></li>
+<li><p>The blocks will not be in equillibrium(net forces acting =0) and move with some common acceleration. Lets call that acceleration 'a' which will be in the vertical direction as there are no horizontal forces on the system.Let downward direction be +ve.Now writing equations:
+
+</p></li><li><span class="math">\[ 2Ma=2Mg-T    (Eq.1)  \] heavier block will move downward </li></li>
+<li><p class="math">
+\[
+\begin{align}
+-Ma &= Mg - T \\
+Ma &= T - Mg \quad (\text{Eq.2})
+\end{align}
+\]
+
+{Adding both equations together, we get:}
+
+\[
+\begin{align}
+2Ma + Ma &= 2Mg - Mg + T - T \\
+3Ma &= Mg \\
+\therefore a &= \frac{g}{3}
+\end{align}
+\]
+</li></ul>
+</details>
+</div>
+<H2>Springs</H2>
+<p>You will learn more about springs later but now you must have the basic idea. A spring is a device which can be stretched or compressed from its stretched position(mean position) and applies a force opposite to the direction in which it has been displaced i.e it pushes outwards if it is compressed but pulls inwards if stretched.The more it is stretched, the more force it applies. therefore, we can say that:</p>
+<div class="box math">
+    \[ F_s \propto x \]
+\[
+\begin{align}
+F_s &= -k x
+\end{align}
+\]
+</div>
+<p>Where F<sub>s</sub> is the force applied by a spring, x is the displacement from mean position and k is proportionality constant which varies spring to spring.</p><span class="math"><p> Note: The  -ve  sign is to demonstrate the opposite direction of the force.</p></span>
+<div class="red-box">
+<h2>Block on an inclined plane</h2>
+<strong>Problem:</strong>A block of mass m lies on an inclined plane with inclination θ, find the normal force 'N' applied by the surface on the block and acceleration of block along the plane.
+<details>
+    <summary><strong>Click here to see the solution</strong></summary>
+    <div class="solution-box">
+        <ul><li>First lets make a rough diagram.
+        </li><li><img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 225427.png"></li>
+        <li>Now, lets resolve the forces on block taking X-axis along the plane and Y-axis perpendicular to it.
+        </li>
+        <li><img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-09 230747.png"></li>
+        <li>as block is not moving along the Y-axis, therefore we can say,<span class="math">\[ N=mgcosα  \]</li>
+  <li>As there are no forces opposing the force of gravity along the plane, therefore it will along it with an acceleration<span class="math">\[=gsinα\]</span></li>
+  </ul>
+  </div></details>
+</div>
+<h2>Inertia and Frames Of Refrences</h2>
+<p>Inertia is basically the unwilligness of an object to change it's state of motion. This is basically Newton’s 1<sup>st</sup> law. Inertia basically means that an object will be in rest or in motion if left undisturbed but this does not mean it will resist change on experiencing an external force. One cool example of inertia is When you are standing in a bus and suddenly brakes are applied, you tend to fall forward. Why? because your lower half of the body comes to rest while the upper half continues to be in motion due to inertia as no external force is applied on your upper half of the body
+
+</p>
+<h3>Frames Of Refrences</h3>
+<p>A Frame of refrence is an abstract system from where we work our forces and basically do our calculation. One important case of this is an <strong>inertial frame of refrence</strong>. </p>
+<p>An <strong>inertial frame of refrence</strong> is a refrence where the net forces acting on a body is zero i.e it is in equilibrium. This means it's either in rest or in uniformly acclelerated motion.</p>
+<h3>Choosing a frame</h3>
+<p>A frame should be chosen according to the needs of the problem but usually inertial works out best.</p>
+<h3>Pseudo Forces</h3>
+<p>
+It is a fake force used in non-inertial frames to work out correct calculations.
+</p>
+
+<p>Its formula is:</p>
+<div class="box math">
+    \[ F_f = m a_f \]
+</div>
+
+<p>
+Where <strong>m</strong> is the mass of the object, and <strong>a<sub>f</sub></strong> is the acceleration of the non-inertial frame.
+</p>
+<h2>Friction</h2>
+<p><strong>Friction</strong> is a force which opposes the relative motion between two bodies. It is caused due to the irregularities between two surface as seen:<img src="C:\Users\KAPEESH\OneDrive\Documents\Pictures\Screenshots\Screenshot 2025-11-10 000137.png"></p>
+<p>When two solid bodies slip over each other, the force of friction is called <strong>kinetic friction</strong>.</p>
+<p>However, if two bodies do not slip then the force of friction is called <strong>static friction</strong>.</p>
+</body>
+</html>
+
